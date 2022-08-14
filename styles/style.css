@@ -1,0 +1,46 @@
+:root {
+    --ff-primary: 'Outfit', sans-serif;
+
+    --fs-lg: 1.375rem;
+    --fs-sm: .9375rem;
+
+    --fw-base: 400;
+    --fw-bold: 700;
+
+    --clr-primary: #7D889E;
+    --clr-secondary: #1F314F;
+    --clr-primary-bg: #D5E1EF;
+    --clr-secondary-bg: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--clr-primary-bg);
+    font-family: var(--ff-primary);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* ============
+   Typography
+   ============*/
+/* ============
+   Layout
+   ============*/
+
+.container {
+    background: var(--clr-secondary-bg);
+    max-width: 320px;
+}
+
+/* ============
+   Main Content
+   ============*/
