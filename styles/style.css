@@ -22,6 +22,12 @@
 body {
     background: var(--clr-primary-bg);
     font-family: var(--ff-primary);
+    padding: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 img {
@@ -32,15 +38,44 @@ img {
 /* ============
    Typography
    ============*/
+
+.title {
+    color: var(--clr-secondary);
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-bold);
+    margin-bottom: 1rem;
+}
+
+.main-text {
+    color: var(--clr-primary);
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-base);
+}
+
+.title,
+.main-text {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* ============
    Layout
    ============*/
 
 .container {
     background: var(--clr-secondary-bg);
+    border-radius: 20px;
+    padding: 1rem 1rem 2.5rem;
     max-width: 320px;
+    text-align: center;
 }
 
 /* ============
    Main Content
    ============*/
+
+.qr-code {
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
